@@ -106,7 +106,7 @@
 
 - Find your version in Production tab, Release section.
 - Check the status: Status changes from 'In review' to 'Published' means you app has been successfully published on Google Play Store.
-- If you receive 'App rejected', click [App Rejection and Troubleshooting]. 
+- If you receive 'App rejected', click [App Rejection and Troubleshooting](https://github.com/HowardLee134/Documentation-/blob/main/App%20Rejection%20and%20Troubleshooting%20.md). 
 - Test the app via Google Play Store after release.
 
 ## Conclusion
