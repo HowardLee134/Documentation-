@@ -92,3 +92,35 @@
 
 - Return to `File > Build Settings`.
 - Choose 'Build' for APK or 'Build App Bundle (Google Play)' for AAB.
+-  Navigate to 'Create symbols.zip', set to public, click 'Build'.
+- Save build bundle file in a new build folder.(creating a new build folder within your project is recommended)
+
+## Step 3: Uploading Your App to Google Play Console
+
+- Navigate to Production tab.
+- Select 'Countries/regions'.
+- Click 'Release', create a new release, upload AAB file.
+- Check release name and notes.
+
+## Step 4: Waiting for Review
+
+- Find your version in Production tab, Release section.
+- Status changes from 'In review' to 'Published' post-review.
+- Test the app via Google Play Store after release.
+
+## Conclusion
+
+Follow these steps for a successful upload of your Unity project to the Google Play Store. Regularly test your app post-publication for optimal performance.
+
+## Credits
+
+This guide and the Unity project are the results of collaborative efforts by the following:
+
+- **Ming Hao (Howard) Lee** - *Software Developer*
+- **University of the Pacific Cube Software Team**
+
+We extend our heartfelt appreciation to Ming Hao (Howard) Lee and the University of the Pacific Cube Software Team for their significant contributions to the development and documentation of this project.
+
+---
+
+For any inquiries, contributions, or further information, please contact the University of the Pacific Cube Software Team or Ming Hao (Howard) Lee at [his email/contact information].
