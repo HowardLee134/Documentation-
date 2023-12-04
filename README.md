@@ -112,15 +112,13 @@
 
 Follow these steps for a successful upload of your Unity project to the Google Play Store. Regularly test your app post-publication for optimal performance.
 
-## Credits
+---
 
 This guide and the Unity project are the results of collaborative efforts by the following:
 
 - **Ming Hao (Howard) Lee** - *Software Developer*
 - **University of the Pacific Cube Software Team**
 
-We extend our heartfelt appreciation to Ming Hao (Howard) Lee and the University of the Pacific Cube Software Team for their significant contributions to the development and documentation of this project.
-
 ---
 
-For any inquiries, contributions, or further information, please contact the University of the Pacific Cube Software Team or Ming Hao (Howard) Lee at [his email/contact information].
+For any inquiries, contributions, or further information, please contact the University of the Pacific Cube Software Team.
