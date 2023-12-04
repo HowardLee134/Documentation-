@@ -112,7 +112,7 @@
 
 Follow these steps for a successful upload of your Unity project to the Google Play Store. Regularly test your app post-publication for optimal performance.
 
----
+
 
 This guide and the Unity project are the results of collaborative efforts by the following:
 
