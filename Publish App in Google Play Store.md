@@ -10,7 +10,7 @@
 ### Accessing Google Play Console
 
 - Visit [Google Play Console](https://play.google.com/console) and log in.
-- Click the blue 'Create app' button.
+- Click the blue 'Create app' button (usually under Pinned apps section, on the right side of the page).
 
 ### Filling Out App Details
 
