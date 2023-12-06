@@ -25,7 +25,8 @@
 - On the Dashboard, under 'Set up your app', click 'View tasks'.
 - Complete the following sections:
 
-![Sample Image](https://example.com/sample-image.png)
+
+![Image_1](GoogleImage/setupApp_google.jpg)
 
 #### Privacy Policy
 
@@ -67,6 +68,9 @@
 - Fill in all details. The short description appears in the Google Play Store.
 - Upload screenshots and an app icon, resized as necessary (e.g., using [PicResize](https://picresize.com/)).
 
+![Image_2](GoogleImage/taskList.jpg)
+- Base of the Image showing, You should finish all the 12 tasks before jump to the step 2.
+
 ## Step 2: Configuring Your Unity Project
 
 ### Unity Editor Preparation
@@ -84,17 +88,22 @@
     - Choose a minimum API Level (recommended level 32).
     - Select IL2CPP for the Scripting Backend.
     - Under 'Target Architectures', check 'ARM64'.
+      ![playerSetting](GoogleImage/PlayerSetting.PNG)
+      
 
 ### Keystore Configuration
 
 - In `Player Settings`, navigate to `Publishing Settings`.
+  ![buildSetting](GoogleImage/publish_setting_google.jpg)
 - Use an existing keystore or create a new one via 'Keystore Manager'.
+  ![buildSetting](GoogleImage/keystore_google.PNG)
 
 ### Building the App
 
 - Return to `File > Build Settings`.
 - Choose 'Build' for APK or 'Build App Bundle (Google Play)' for AAB.
 -  Navigate to 'Create symbols.zip', set to public, click 'Build'.
+   ![buildSetting](GoogleImage/buildsetting_google.jpg)
 - Save build bundle file in a new build folder.(creating a new build folder within your project is recommended)
 
 ## Step 3: Uploading Your App to Google Play Console
@@ -102,8 +111,10 @@
 - Navigate to Production tab.
 - Select 'Countries/regions'.
 - Click 'Release', create a new release, upload AAB file.
+  ![buildSetting](GoogleImage/release.jpg)
 - Check release name and notes.
-
+  ![buildSetting](GoogleImage/release_2.jpg)
+- It is hightly recommended to double check Version, API levels, and Target SDK before you publish.
 ## Step 4: Waiting for Review
 
 - Find your version in Production tab, Release section.
