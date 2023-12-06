@@ -25,6 +25,8 @@
 - On the Dashboard, under 'Set up your app', click 'View tasks'.
 - Complete the following sections:
 
+![Sample Image](https://example.com/sample-image.png)
+
 #### Privacy Policy
 
 - A Privacy Policy is mandatory. Refer to [this video](https://www.youtube.com/watch?v=BfIWE172jj0&ab_channel=CocoCode) for guidance.
