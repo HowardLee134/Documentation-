@@ -5,14 +5,13 @@
 ### Step 1. Prerequisites
 - Check the Info on [App Store submission requirement](https://developer.apple.com/news/?id=jd9wcyov) to make sure your Mac device is capabale. 
 - A Mac computer running macOS with the latest updates installed.
-- An Apple Developer account [Apple Developer](https://developer.apple.com/).
-- Unity Hub and Unity Editor Download from [Unity](https://unity.com/).
+- An Apple Developer account [Apple Developer](https://developer.apple.com/)(Cube Software Team already have an account).
+- Unity Hub and Unity Editor 
 
 
 ### Step 2. Set Up Your Unity Project
 
-1. Open Unity Hub and create a new Unity project or open an existing one.
-2. Configure your Unity project for iOS development:
+1. Configure your Unity project for iOS development:
    - Go to "File" -> "Build Settings."
    - Select "iOS" as the platform.
    - Configure the following settings under the "Player Settings" section:
@@ -20,19 +19,15 @@
      - Company Name: Your company's name.
      - Bundle Identifier: A unique reverse-domain identifier (e.g., com.yourcompany.yourgame).
      - Version and Build Numbers: Update these appropriately(make sure update everytime before you build).
-     - Default Orientation: Set this to match your AR game's orientation.
-     - XR Settings: Enable ARKit for Augmented Reality support.
-     - App Icons and Launch Images: Add your app icons and launch images.
+     - App Icons: Add your app icons Image. 
 
-## Building Your AR Game
+2. Building Your Game
 
-### 4. Building Your Game
+   - Return to the "Build Settings" window in Unity.
+   - Click "Build" or "Build and Run" to generate an Xcode project.
+   - Choose a location to save the Xcode project(Highly recommend to create a new IOS build folder in your project path).
 
-1. Return to the "Build Settings" window in Unity.
-2. Click "Build" or "Build and Run" to generate an Xcode project.
-3. Choose a location to save the Xcode project.
-
-### 5. Preparing for App Store Submission
+### Step 3. Preparing for App Store Submission
 
 1. Log in to your Apple Developer account ([Apple Developer](https://developer.apple.com/)).
 2. Create an App ID in the Developer Center specifically for your game.
