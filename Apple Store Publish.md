@@ -1,4 +1,4 @@
-# Unity AR Game App Store Submission Guide
+# Unity Game App Store Submission Guide
 
 ## Preparation and Configuration
 
@@ -29,46 +29,74 @@
 
 ### Step 3. Preparing for App Store Submission
 
-1. Log in to your Apple Developer account ([Apple Developer](https://developer.apple.com/)).
-2. Create an App ID in the Developer Center specifically for your game.
-3. Create a provisioning profile for distribution in Xcode.
-4. Set up an App Store Connect record for your game ([App Store Connect](https://appstoreconnect.apple.com/)).
+1. Apple Developer Account Setup
+
+- **Log In**: Access your Apple Developer account at the [Apple Developer website](https://developer.apple.com/).
+- **Create a Unique Identifier**:
+  - Navigate to "+ identifier".
+  - Select "Apple ID", then "APP".
+  - Complete the "Description" and "Bundle ID" fields(**The Bundle ID should be the same as you create in Unity as Bundle Identifier**).
+  - Click "Continue".
+   Photo 
+
+
+2. App Store Connect Configuration
+
+- **Set Up an App Store Connect Record**:
+  - In App Store Connect, click the "+" icon (After the word "APP").
+  - Complete the "New App" settings.
+     Photo 
+  - Once created, the new App icon appears on the Dashboard.
 
 ## Configuring Xcode Project Settings
 
-### 6. Xcode Project Configuration
+### Step 4. Xcode Project Configuration
 
-1. Open the Xcode project created in Step 4.
-2. Update the signing settings in Xcode with the provisioning profile and App ID created in Step 5.
-3. Set the Deployment Target in Xcode to the minimum iOS version required by your game.
-4. Review and update any entitlements, app icons, and splash screens directly in Xcode as needed.
+1. Open the Xcode project created in Step 2.
+2. Update the signing settings in Xcode:
+   - Enable 'Automatically Manage Signing.'
+   - Navigate to the Provisioning Profile and select your Team.
+   - If needed, add your Team by clicking 'Add an Account' and logging in with your Apple Developer Apple ID.
+   - Double-check that the Bundle Identifier is correctly configured.
+3. Review the Info.plist to ensure that all app features and permissions are correctly set.
 
-### 7. Building Your Game in Xcode
+## Building Your Unity AR Game in Xcode
 
-- Build your Unity AR game in Xcode by clicking "Build" in Xcode's project settings.
+### Step 5. Building Your Unity AR Game in Xcode
+
+- Build your Unity AR game in Xcode by selecting "Build" in Xcode's project settings.
 - Allow Xcode to compile your project.
 
 ## App Store Submission
 
-### 8. App Store Submission
+### Step 6. App Store Submission
 
-1. Open the Application Loader tool (part of Xcode) and select your game's build.
-2. Follow the prompts to upload your game to App Store Connect.
+1. Upload Your Game to App Store Connect:
+   - Navigate to 'Product' -> 'Archive' in Xcode.
+   - Once the archive process is finished, check the 'Status' section to ensure there are no warnings or errors.
+   - Click 'Distribute App.'
+2. In App Store Connect:
+   - Navigate to your app and select 'TestFlight' to view your app bundle. Verify that the 'STATUS' is error-free.
+   - If you encounter a 'miss compliance' error, click 'Manage,' carefully read Complying with Encryption Export Regulations, and complete the required Export Compliance Information as per Apple's instructions.
 3. Complete the App Store Connect submission process, including:
-   - Filling out all necessary metadata, such as app name, description, keywords, and contact information.
-   - Adding screenshots and app previews that showcase your AR game.
-   - Setting the price and availability of your game.
-   - Defining in-app purchases, if applicable.
-   - Configuring age ratings and content restrictions.
-4. Double-check that all information is accurate and follows Apple's guidelines.
+   - Providing all necessary metadata, such as the app name, description, keywords, and contact information.
+   - Adding high-quality screenshots and app previews that effectively showcase your AR game.
+   - Setting the pricing and availability options for your game.
+   - Configuring any in-app purchases, if applicable.
+   - Defining age ratings and content restrictions according to the guidelines.
+   - In the Build section, select the bundle you uploaded earlier.
+   - Double-check that all provided information is accurate and adheres to Apple's guidelines.
+   - Click the 'Save' button located at the top right of the page.
 
-### 9. App Review and Approval
+### Step 7. App Review and Approval
 
-- Wait for Apple's review team to assess your app. The review process typically takes several days.
+- Await the assessment of your app by Apple's review team. The review process typically takes several days.
 - Monitor your App Store Connect account for updates and communication from Apple regarding your submission.
+- If your app is rejected, carefully review the feedback provided by Apple and address any issues.
 
-### 10. Release Your AR Game
+### Step 8. Release Your AR Game
 
-- Once your app is approved, you can choose when to release it on the App Store.
-- Set the release date in App Store Connect if you want to schedule the release in advance.
-- Promote your game through marketing and social media channels to reach a wider audience.
+- Once your app is approved, you have the flexibility to choose when to release it on the App Store.
+- If you wish to schedule a release in advance, set the release date in App Store Connect.
+
+By following these steps and adhering to Apple's guidelines, you can ensure a more accurate and professional submission process for your AR game on the App Store.
