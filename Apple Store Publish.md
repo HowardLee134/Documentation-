@@ -6,8 +6,7 @@
 - Check the Info on [App Store submission requirement](https://developer.apple.com/news/?id=jd9wcyov) to make sure your Mac device is capabale. 
 - A Mac computer running macOS with the latest updates installed.
 - An Apple Developer account [Apple Developer](https://developer.apple.com/)(Cube Software Team already have an account).
-- Unity Hub and Unity Editor 
-
+- Unity Hub and Unity Editor.
 
 ### Step 2. Set Up Your Unity Project
 
@@ -31,8 +30,8 @@
 
 1. Apple Developer Account Setup
 
-- **Log In**: Access your Apple Developer account at the [Apple Developer website](https://developer.apple.com/).
-- **Create a Unique Identifier**:
+- Log In: Access your Apple Developer account at the [Apple Developer website](https://developer.apple.com/).
+- Create a Unique Identifier:
   - Navigate to "+ identifier".
   - Select "Apple ID", then "APP".
   - Complete the "Description" and "Bundle ID" fields(**The Bundle ID should be the same as you create in Unity as Bundle Identifier**).
@@ -42,7 +41,7 @@
 
 2. App Store Connect Configuration
 
-- **Set Up an App Store Connect Record**:
+- Set Up an App Store Connect Dashboard:
   - In App Store Connect, click the "+" icon (After the word "APP").
   - Complete the "New App" settings.
      Photo 
@@ -60,27 +59,23 @@
    - Double-check that the Bundle Identifier is correctly configured.
 3. Review the Info.plist to ensure that all app features and permissions are correctly set.
 
-## Building Your Unity AR Game in Xcode
-
 ### Step 5. Building Your Unity AR Game in Xcode
 
 - Build your Unity AR game in Xcode by selecting "Build" in Xcode's project settings.
 - Allow Xcode to compile your project.
-
+- Upload Your Game to App Store Connect:
+   - Navigate to 'Product' -> 'Archive' in Xcode.
+   - Once the archive process is finished, check the 'Status' section to ensure there are no warnings(some warning might okay to be there) or errors.
+   - Click 'Distribute App.'
 ## App Store Submission
 
 ### Step 6. App Store Submission
-
-1. Upload Your Game to App Store Connect:
-   - Navigate to 'Product' -> 'Archive' in Xcode.
-   - Once the archive process is finished, check the 'Status' section to ensure there are no warnings or errors.
-   - Click 'Distribute App.'
-2. In App Store Connect:
+1. In App Store Connect:
    - Navigate to your app and select 'TestFlight' to view your app bundle. Verify that the 'STATUS' is error-free.
    - If you encounter a 'miss compliance' error, click 'Manage,' carefully read Complying with Encryption Export Regulations, and complete the required Export Compliance Information as per Apple's instructions.
-3. Complete the App Store Connect submission process, including:
+2. Complete the App Store Connect submission process, including:
    - Providing all necessary metadata, such as the app name, description, keywords, and contact information.
-   - Adding high-quality screenshots and app previews that effectively showcase your AR game.
+   - Adding screenshots and app previews for your app, resized as necessary (e.g., using [PicResize](https://picresize.com/))..
    - Setting the pricing and availability options for your game.
    - Configuring any in-app purchases, if applicable.
    - Defining age ratings and content restrictions according to the guidelines.
