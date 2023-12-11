@@ -75,7 +75,7 @@
    - Navigate to 'Product' -> 'Archive' in Xcode.
    - Once the archive process is finished, check the 'Status' section to ensure there are no warnings(some warning might okay to be there) or errors.
    - Click 'Distribute App.'
-   - ![xcodeInfo](AppleDocumentation/xcode_info.PNG)
+   - ![distrube_app](AppleDocumentation/distrube_app.jpg)
 ## App Store Submission
 
 ### Step 6. App Store Submission
