@@ -1,3 +1,15 @@
+## App Rejection and Troubleshooting (Apple Store)
+
+In the event that your app submission to the Apple store is rejected, follow these steps to identify and resolve the issue:
+### Identifying the Reason for Rejection
+
+1. **Review the Rejection Email:** Apple developer account typically sends an email detailing the reason for rejection. Carefully review this email to understand the specific issue.
+
+
+
+
+
+
 ## App Rejection and Troubleshooting (Google Play Console)
 
 In the event that your app submission to the Google Play Store is rejected, follow these steps to identify and resolve the issue:
