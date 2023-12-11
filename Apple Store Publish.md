@@ -18,34 +18,41 @@
      - Company Name: Your company's name.
      - Bundle Identifier: A unique reverse-domain identifier (e.g., com.yourcompany.yourgame).
      - Version and Build Numbers: Update these appropriately(make sure update everytime before you build).
-     - App Icons: Add your app icons Image. 
+     - App Icons: Add your app icons Image.
+       ![PlayerSettingIcon](AppleDocumentation/playerSettingIcon.jpg)
+
+   - Following the Image for Unity API choose any selection
+    ![PlayerSettingIcon](AppleDocumentation/playerSetting.jpg)
 
 2. Building Your Game
 
    - Return to the "Build Settings" window in Unity.
    - Click "Build" or "Build and Run" to generate an Xcode project.
    - Choose a location to save the Xcode project(Highly recommend to create a new IOS build folder in your project path).
-
+     ![Building Your Game](AppleDocumentation/buildSetting.jpg)
 ### Step 3. Preparing for App Store Submission
 
 1. Apple Developer Account Setup
 
 - Log In: Access your Apple Developer account at the [Apple Developer website](https://developer.apple.com/).
 - Create a Unique Identifier:
-  - Navigate to "+ identifier".
+  - Navigate to "identifier".
+   ![identifier](AppleDocumentation/certificate.jpg)
   - Select "Apple ID", then "APP".
   - Complete the "Description" and "Bundle ID" fields(**The Bundle ID should be the same as you create in Unity as Bundle Identifier**).
   - Click "Continue".
-   Photo 
+    ![identifierBundleID](AppleDocumentation/Certificate_detail.jpg)
 
 
 2. App Store Connect Configuration
 
 - Set Up an App Store Connect Dashboard:
   - In App Store Connect, click the "+" icon (After the word "APP").
-  - Complete the "New App" settings.
-     Photo 
+  - Complete the "New App" settings.  
+  ![newApp](AppleDocumentation/newApp.PNG)
+    
   - Once created, the new App icon appears on the Dashboard.
+    ![Dashboard](AppleDocumentation/Dashboard.PNG)
 
 ## Configuring Xcode Project Settings
 
@@ -57,8 +64,9 @@
    - Navigate to the Provisioning Profile and select your Team.
    - If needed, add your Team by clicking 'Add an Account' and logging in with your Apple Developer Apple ID.
    - Double-check that the Bundle Identifier is correctly configured.
+     ![XcodeSigning](AppleDocumentation/singing_page.PNG)
 3. Review the Info.plist to ensure that all app features and permissions are correctly set.
-
+    ![XcodeSigning](AppleDocumentation/xcode_info.PNG)
 ### Step 5. Building Your Unity AR Game in Xcode
 
 - Build your Unity AR game in Xcode by selecting "Build" in Xcode's project settings.
@@ -67,12 +75,14 @@
    - Navigate to 'Product' -> 'Archive' in Xcode.
    - Once the archive process is finished, check the 'Status' section to ensure there are no warnings(some warning might okay to be there) or errors.
    - Click 'Distribute App.'
+   - ![xcodeInfo](AppleDocumentation/xcode_info.PNG)
 ## App Store Submission
 
 ### Step 6. App Store Submission
 1. In App Store Connect:
    - Navigate to your app and select 'TestFlight' to view your app bundle. Verify that the 'STATUS' is error-free.
-   - If you encounter a 'miss compliance' error, click 'Manage,' carefully read Complying with Encryption Export Regulations, and complete the required Export Compliance Information as per Apple's instructions.
+   - If you encounter a 'miss compliance' error, click 'Manage,' carefully read      Complying with Encryption Export Regulations, and complete the required         Export Compliance Information as per Apple's instructions.
+     ![miss_compliance](AppleDocumentation/miss_compliance.jpg)
 2. Complete the App Store Connect submission process, including:
    - Providing all necessary metadata, such as the app name, description, keywords, and contact information.
    - Adding screenshots and app previews for your app, resized as necessary (e.g., using [PicResize](https://picresize.com/))..
@@ -88,6 +98,7 @@
 - Await the assessment of your app by Apple's review team. The review process typically takes several days.
 - Monitor your App Store Connect account for updates and communication from Apple regarding your submission.
 - If your app is rejected, carefully review the feedback provided by Apple and address any issues.
+  ![apple_review](AppleDocumentation/submition_apple_review.PNG)
 
 ### Step 8. Release Your AR Game
 
