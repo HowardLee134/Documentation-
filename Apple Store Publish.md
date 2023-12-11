@@ -100,6 +100,7 @@
 - Monitor your App Store Connect account for updates and communication from Apple regarding your submission.
 - If your app is rejected, carefully review the feedback provided by Apple and address any issues.
   ![apple_review](AppleDocumentation/submition_apple_review.PNG)
+- If you receive 'App rejected', click [App Rejection and Troubleshooting](https://github.com/HowardLee134/Documentation-/blob/main/App%20Rejection%20and%20Troubleshooting%20.md).
 
 ### Step 8. Release Your AR Game
 
