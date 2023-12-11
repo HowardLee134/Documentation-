@@ -1,4 +1,5 @@
 # Unity Game App Store Submission Guide
+## Date Created: Dec. 2023
 
 ## Preparation and Configuration
 
@@ -105,4 +106,17 @@
 - Once your app is approved, you have the flexibility to choose when to release it on the App Store.
 - If you wish to schedule a release in advance, set the release date in App Store Connect.
 
-By following these steps and adhering to Apple's guidelines, you can ensure a more accurate and professional submission process for your AR game on the App Store.
+## Conclusion
+
+Follow these steps for a successful upload of your Unity project to the Apple Store. Regularly test your app post-publication for optimal performance.
+
+
+
+This guide and the Unity project are the results of collaborative efforts by the following:
+
+- **Ming Hao (Howard) Lee** - *Software Developer*
+- **University of the Pacific Cube Software Team**
+
+---
+
+For any inquiries, contributions, or further information, please contact the University of the Pacific Cube Software Team.
